@@ -12,14 +12,8 @@
 </template>
 
 <script>
-import LongDelete from "./LongDelete.vue";
-import LeftDelete from "./LeftDelete.vue";
 export default {
   name: "Test",
-  components: {
-    LongDelete,
-    LeftDelete,
-  },
   data() {
     return {
       animateShow: false,

@@ -4,7 +4,12 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
+
+import LeftDelete from '../src/index';
+import LongDelete from '../src/index';
+Vue.use(LeftDelete);
+Vue.use(LongDelete);
 
 /* eslint-disable no-new */
 new Vue({
