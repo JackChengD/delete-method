@@ -18,7 +18,7 @@ const install = function(Vue) {
   }
   
 export default {
-    version: '1.0.0',
+    version: '1.0.3',
     install,
     LeftDelete,
     LongDelete
