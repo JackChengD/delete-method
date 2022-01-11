@@ -1,12 +1,12 @@
-import LeftDelete from '~/leftDelete/index.js';
-import LongDelete from '~/LongDelete/index.js';
+import LeftDelete from './leftDelete/index.js';
+import LongDelete from './longDelete/index.js';
 
 const components = [
     LeftDelete,
     LongDelete
 ]
 
-const install = function(Vue, opts = {}) {
+const install = function(Vue) {
     components.forEach(component => {
       Vue.component(component.name, component);
     });
