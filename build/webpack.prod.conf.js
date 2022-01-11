@@ -26,7 +26,7 @@ const webpackConfig = merge(baseWebpackConfig, {
   },
   devtool: config.build.productionSourceMap ? config.build.devtool : false,
   output: {
-    path: config.build.assetsRoot,
+    path: path.resolve(__dirname, '../lib'),
     filename: utils.assetsPath('js/[name].js'),
     libraryExport: 'default',
     library: 'ELEMENT',

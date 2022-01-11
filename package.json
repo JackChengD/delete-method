@@ -4,7 +4,7 @@
   "description": "longDelete、leftDelete",
   "author": "jacklin",
   "private": true,
-  "main": "/dist/static/js/delete-method.js",
+  "main": "/lib/static/js/delete-method.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
